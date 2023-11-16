@@ -1,0 +1,633 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 70px;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 30px;
+	line-height: 40px;
+}
+
+h3{
+	font-size: 20px;
+	color: #6F6F6F;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+h4{
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h5{
+	font-size: 18px;
+	color: white;
+	font-weight: 400;
+}
+
+h6{
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 16px;
+	color: #6F6F6F;
+	line-height: 30px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.page-header{
+	position: relative;
+	z-index: 5;
+	padding: 40px 40px;
+}
+
+.header-parent{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-holder{;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.header-list{
+	display: flex;
+	list-style: none;
+	gap: 40px;
+}
+
+.header-list a{
+	color: #B1B1B1;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.header-list a:hover{
+	color: white;
+}
+
+.header-list a:visited{
+	color: white;
+}
+
+.hamburger{
+	display: none;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+.banner{
+	background: url(Sofa_Catena.jpg) rgba(97, 97, 97, 40%);
+	background-blend-mode: overlay;
+	background-size: cover;
+}
+
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1100px;
+	width: 90%;
+	padding: 120px 0;
+}
+
+.banner .container{
+	text-align: center;
+	padding-top: 320px;
+	padding-bottom: 400px;
+	justify-content: center;
+}
+
+.line{
+    width: 80px;
+    height: 5px;
+    background: #764213;
+    position: relative;
+   	left: -25px;
+	top: 5px;
+	margin-bottom: 40px;
+}
+
+.banner img{
+	max-width: 50px;
+	margin-bottom: 20px;
+}
+
+.bold-h2{
+	font-weight: 600;
+}
+
+.who-we-are-parent{
+	display: flex;
+}
+
+.who-we-are-left{
+	width: 50%;
+	padding-right: 150px;
+}
+
+.who-we-are-right{
+	width: 50%;
+}
+
+.btn-1{ 
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	padding: 10px 18px;
+	display: inline-block;
+}
+
+.btn-1:hover{
+	background: #D9B7A4;
+}
+
+.btn-2{ 
+	border: 2px solid white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	padding: 10px 18px;
+	display: inline-block;
+}
+
+.btn-2:hover{
+	background: #F8DFC9;
+}
+
+.gallery{
+	background-color: #D9BA9E;
+}
+
+.gallery h2{
+	margin-bottom: 50px;
+}
+
+.gallery-parent{
+	display: flex;
+	gap: 25px;
+	margin-bottom: 50px;
+}
+
+.gallery-left{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.gallery-right{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.gallery img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border: 10px solid white;
+}
+
+.image-short{
+	height: 300px;
+}
+
+.image-long{
+	height: 600px;
+}
+
+.gallery img:hover{
+	transform: scale(1.03);
+	border: none;
+	transition: 0.5s;
+}
+
+.gallery .container{
+	text-align: center;
+}
+
+.responsibility-parent{
+	display: flex;
+}
+
+.responsibility-left{
+	width: 50%;
+	padding-right: 150px;
+}
+
+.responsibility-right{
+	width: 50%;
+}
+
+.responsibility-grid{
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-column-gap: 60px;
+}
+
+.responsibility-card{
+	text-align: left;
+}
+
+.responsibility-icons{
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #764213;
+}
+
+.find-store{
+	background: #384B39;
+	text-align: center;
+	color: white;
+}
+
+.find-store .container{
+	padding: 60px 0;
+}
+
+.find-store p{
+	color: white;
+}
+
+.find-store .btn-2:hover{
+	background: #8AA78B;
+}
+
+footer{
+	background: #D9BA9E;
+}
+
+footer .container{
+	padding: 90px 0;
+}
+
+.footer-columns{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 40px;
+}
+
+footer .btn-1:hover{
+	background: #F8DFC9;
+}
+
+.social-media-icons{
+	display: flex;
+	gap: 10px;
+	font-size: 30px;
+	color: #764213;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.social-media-icons a{
+	color: #764213;
+}
+
+.brown-p{
+	color: #764213;
+}
+
+footer p{
+	color: black;
+	margin-bottom: 16px;
+}
+
+ul{
+	list-style: none;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+footer a{
+	color: black;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.copyright p{
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px){
+
+	.banner .container{
+		padding-top: 200px;
+		padding-bottom: 280px;
+	}
+
+	h1{
+		font-size: 50px;
+	}
+
+	h2{
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+
+	h3{
+		font-size: 18px;
+	}
+
+	.container{
+		padding: 80px 0;
+	}
+
+	.who-we-are-left{
+		padding-right: 50px;
+	}
+
+	.responsibility-left{
+		padding-right: 50px;
+	}
+
+	.responsibility-grid{
+		grid-column-gap: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 860px){
+
+	.banner .container{
+		padding-top: 100px;
+		padding-bottom: 180px;
+	}
+
+	h1{
+		font-size: 40px;
+	}
+
+	.container{
+		padding: 50px 0;
+	}
+
+	.find-store .container{
+		padding: 30px 0;
+	}
+
+	.who-we-are-parent{
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.who-we-are-left{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.who-we-are-right{
+		width: 100%;
+		text-align: center;
+	}
+
+	.who-we-are-right img{
+		max-width: 400px;
+	}
+
+	.page-header{
+		padding: 20px 20px;
+	}
+
+	.header-list{
+		gap: 20px;
+	}
+
+	.header-list a{
+		font-size: 16px;
+	}
+
+	.gallery-parent{
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.gallery-left{
+		width: 100%;
+	}
+
+	.gallery-right{
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+
+	.responsibility-parent{
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.responsibility-left{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.responsibility-right{
+		width: 100%;
+		text-align: center;
+	}
+
+	footer .container{
+		padding: 70px 0;
+	}
+
+	.footer-columns{
+		grid-template-columns: 1fr;
+		gap: 35px;
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+
+	.banner .container{
+		padding-top: 60px;
+		padding-bottom: 140px;
+	}
+
+	h3{
+		margin-bottom: 25px;
+	}
+
+	h2{
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.container{
+		padding: 30px 0;
+	}
+
+	.who-we-are-right img{
+		max-width: 300px;
+	}
+
+	.logo-holder{;
+		font-size: 16px;
+	}
+
+	.menu-holder{
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding-left: 35px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-top: 80px;
+		background: rgba(255, 255, 255, 50%);
+		background-blend-mode: overlay;
+		border-radius: 0px 0px 0px 30px;
+	}
+
+	.header-list{
+		flex-direction: column;
+		text-align: right;
+		gap: 10px;
+	}
+
+	.header-list a{
+		color: #764213;
+		font-size: 20px;
+	}
+
+	.header-list a:hover{
+		color: white;
+	}
+
+	.header-list a:visited{
+		color: white;
+	}
+
+	.hamburger{
+		display: block;
+		position: relative;
+		z-index: 6;
+	}
+
+	.hamburger function:{
+		color: #764213;
+	}
+
+	.responsibility-grid{
+		grid-template-columns: 1fr;
+	}
+
+	.responsibility-card{
+		text-align: center;
+		padding: 0 50px;
+	}
+
+	.responsibility-icons{
+		font-size: 40px;
+	}
+
+	footer .container{
+		padding: 50px 0;
+	}
+	
+}
+
+@media only screen and (max-width: 520px){
+
+	h1{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	h2{
+		font-size: 22px;
+	}
+
+	h3{
+		font-size: 18px;
+		margin-bottom: 18px;
+	}
+
+	h4{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	h5{
+		font-size: 14px;
+	}
+
+	h6{
+		margin-bottom: 10px;
+	}
+
+	p{
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+
+	ul{
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.banner .container{
+		padding-top: 40px;
+		padding-bottom: 120px;
+	}
+
+	.banner img{
+		max-width: 40px;
+		margin-bottom: 10px;
+	}
+
+	.responsibility-icons{
+		font-size: 30px;
+	}
+
+	.social-media-icons{
+		font-size: 18px;
+		margin-top: 30px;
+	}
+
+}
+
